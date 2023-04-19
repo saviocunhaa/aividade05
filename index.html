@@ -1,0 +1,40 @@
+01-trabalhando-formularios.html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-input</title>
+</head>
+<body>
+    <h3> Cadastro de Usuário</br></br></h3>
+
+<!-- Form
+representa uma seção do documento contendo controles interativos para o envio de informações.<form>
+-->
+<form action="" method="get">
+<!--input é usado para criar controles interativos para formulários baseados na web para aceitar dados do usuário; uma ampla variedade de tipos de dados de entrada e widgets de controle estão disponíveis, dependendo do dispositivo e do agente do usuário . O elemento é um dos mais poderosos e complexos em todo HTML devido ao grande número de combinações de tipos de entrada e atributos.<input>-->
+<!--Os atributos do tipo ( type ) permitem que você selecione diferentes tipos de entradas
+minlength="4" quantidade minima de caracteres
+maxlength="8" quantidade máxima de caracteres
+size="10" tamanho do campo
+placeholder="Digite seu nome" especifica uma dica curta que descreve o valor esperado de um campo de entrada
+required é um atributo booleano. Quando presente, especifica que um campo de entrada deve ser preenchido antes de enviar o formulário.
+-->
+
+Usuário: <input type="text"   id="usuario" name="user"  minlength="4" maxlength="8" size="20" placeholder="Digite seu nome" required> </br></br>
+Senha:   <input type="password" id="senha" name="pass" placeholder="Digite sua senha"> </br></br> 
+		<!--<input>elementos do tipo resetsão renderizados como botões, com um manipulador de eventos padrão clickque redefine todas as entradas no formulário para seus valores iniciais.-->
+		 <input type="reset"  value="Apagar">
+		 <!--<input>elementos do tipo submitsão renderizados como botões. Quando o clickevento ocorre (normalmente porque o usuário clicou no botão), o agente do usuário tenta enviar o formulário ao servidor.-->
+	     <input type="submit" value="Enviar">
+</form>
+
+
+
+
+<a href="./atividade_questao3.html">questão 3</a>
+<a href="./atividade_questão 2.html"> questão 2</a>
+</body>
+</html>
